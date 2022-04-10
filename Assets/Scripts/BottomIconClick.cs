@@ -28,8 +28,8 @@ public class BottomIconClick : MonoBehaviourPunCallbacks
     
 
     void Awake() {
-        chatboxToggle = false;
-        chatbox.SetActive(false);
+        chatboxToggle = true;
+        chatbox.SetActive(true);
         newChatCheck = false;
         //soundInput = voiceManager.GetComponent<SoundInput>();
         chatIconImage = chatIcon.GetComponent<Image>();
