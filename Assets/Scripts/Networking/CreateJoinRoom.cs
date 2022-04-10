@@ -37,11 +37,15 @@ public class CreateJoinRoom : MonoBehaviourPunCallbacks
         PhotonNetwork.CreateRoom(roomName, roomOptions);
     }
 
-    // important!
+    #region change here
     public void OnCreateRoomButton_Clicked() {
         UserManager.Instance.SetName(tempName);
         PhotonNetwork.NickName = tempName;
-        //PhotonNetwork.JoinRandomRoom();
+
+        CharacterSelect.Raise();        
+    }
+
+    public void PanelCharacterSelect() {
         RoomOptions roomOptions = new RoomOptions()
         {
             IsVisible = true,
@@ -50,11 +54,8 @@ public class CreateJoinRoom : MonoBehaviourPunCallbacks
             BroadcastPropsChangeToAll = true,
         };
         PhotonNetwork.JoinOrCreateRoom("Game", roomOptions, TypedLobby.Default);
-
-        //lobbyState = LobbyState.Create;
-
-        CharacterSelect.Raise();        
     }
+    #endregion
 
     public void OnJoinRoomButton_Clicked() {
         UserManager.Instance.SetName(tempName);

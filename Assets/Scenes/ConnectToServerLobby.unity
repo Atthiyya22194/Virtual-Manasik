@@ -1396,6 +1396,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4109049140516554827, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1225604269}
+    - target: {fileID: 4109049140516554827, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PanelCharacterSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109049140516554827, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CreateJoinRoom, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4109049140564472409, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
       propertyPath: m_Transition
       value: 2
