@@ -46,6 +46,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chatInput: {fileID: 0}
   chatContent: {fileID: 0}
+  chatBubblePrefab: {fileID: 1729827654560053863, guid: eae9441259eb14944a97b0b30cbfd1db, type: 3}
+  content: {fileID: 0}
+  contentScrollRect: {fileID: 0}
+  scrollArea: {fileID: 0}
+  inputFieldImage: {fileID: 0}
+  onSelectInputSprite: {fileID: 21300000, guid: 0ebc3d631bcd5a14583da0db56158916, type: 3}
+  onDeselectInputSprite: {fileID: 21300000, guid: 96f93e11a12fbca498e1008cf4288c27, type: 3}
 --- !u!114 &616111193636990737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,6 +72,6 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents: []
-  sceneViewId: 0
+  sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0

@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 4.741}
-  m_SizeDelta: {x: 366.19, y: 27.947}
+  m_AnchoredPosition: {x: 0, y: -4.805}
+  m_SizeDelta: {x: 366.19, y: 47.039}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3750191315908401355
 CanvasRenderer:
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729827654560053863}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -109,11 +109,11 @@ RectTransform:
   m_Father: {fileID: 7005050256489190337}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135.72, y: -0.6}
-  m_SizeDelta: {x: 75.559, y: 21.439}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 346.45, y: 23.237}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4477982474702823548
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -144,15 +144,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Player
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2a945d86c55a82345945bda9047fe8fa, type: 2}
-  m_sharedMaterial: {fileID: -9131301584250286961, guid: 2a945d86c55a82345945bda9047fe8fa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
+  m_sharedMaterial: {fileID: -6518339686938333247, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4280791278
+  m_fontColor: {r: 0.9339623, g: 0.6890374, b: 0.15331075, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -243,11 +243,11 @@ RectTransform:
   m_Father: {fileID: 7005050256489190337}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.753, y: -0.6}
-  m_SizeDelta: {x: 266.666, y: 21.439}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 346.45, y: 29.967}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &6627968218739412122
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -278,15 +278,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pada suatu hari, hiduplah seekor beruang bernama Beru.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7291fb171ab8b2a4ca697ce04570d7eb, type: 2}
-  m_sharedMaterial: {fileID: -1426221060712485277, guid: 7291fb171ab8b2a4ca697ce04570d7eb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
+  m_sharedMaterial: {fileID: -6518339686938333247, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
