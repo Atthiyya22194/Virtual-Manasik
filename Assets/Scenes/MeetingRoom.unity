@@ -261,15 +261,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.472416
+      value: -9.870091
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.510036
+      value: 2.633318
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.94755
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1109,6 +1109,18 @@ PrefabInstance:
     - target: {fileID: 4089082756647806894, guid: 127ce4fd5ed41194787459e7bcbea52c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089082756647806895, guid: 127ce4fd5ed41194787459e7bcbea52c, type: 3}
+      propertyPath: playerAvatars.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089082756647806895, guid: 127ce4fd5ed41194787459e7bcbea52c, type: 3}
+      propertyPath: playerAvatars.Array.data[1]
+      value: 
+      objectReference: {fileID: 5245535294086003906, guid: 1cfab10fbe1a4bb41b1ea1c4c5dbeb6b, type: 3}
+    - target: {fileID: 4089082756647806895, guid: 127ce4fd5ed41194787459e7bcbea52c, type: 3}
+      propertyPath: playerAvatarImages.Array.size
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 127ce4fd5ed41194787459e7bcbea52c, type: 3}
