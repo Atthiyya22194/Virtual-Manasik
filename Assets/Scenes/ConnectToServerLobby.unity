@@ -1260,6 +1260,10 @@ PrefabInstance:
       propertyPath: m_RootBone
       value: 
       objectReference: {fileID: 4109049140398907246}
+    - target: {fileID: 3621745901237141486, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
+      propertyPath: renderTextureAvatars.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4109049139705912584, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
       propertyPath: m_SizeDelta.x
       value: 450
@@ -1283,7 +1287,7 @@ PrefabInstance:
     - target: {fileID: 4109049139871846199, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 8400000, guid: ea16e15f37567b64baa95b7e7ec59520, type: 2}
+      objectReference: {fileID: 8400000, guid: ef1a3af928e7fda46bab7290f6b55e11, type: 2}
     - target: {fileID: 4109049139871846199, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
       propertyPath: near clip plane
       value: 0.3
@@ -1518,7 +1522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4109049141124292118, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 1024
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4109049141397576917, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
       propertyPath: m_ClearFlags
@@ -1584,9 +1588,7 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0d3c9508c9bada046adf21368827f3a5, type: 2}
-    m_RemovedComponents:
-    - {fileID: 4109049141397576922, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
-    - {fileID: 4109049139871846196, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 612ec16b5f56cfb44b60540524da76d7, type: 3}
 --- !u!4 &4109049140398907246 stripped
 Transform:
