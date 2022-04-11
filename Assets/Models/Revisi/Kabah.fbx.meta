@@ -1,0 +1,357 @@
+fileFormatVersion: 2
+guid: 140cc02002566f343b8685427cc2c6b8
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArchPillar_Baked
+    second: {fileID: 2100000, guid: 810fdab70eac40c4e9954e2c067d1281, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Archsmall.001_Baked
+    second: {fileID: 2100000, guid: b6f0dfd95723f114682e0d1fffb30a6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Archsmall.002_Baked
+    second: {fileID: 2100000, guid: e2ceb055080d1bd4dbd1ba770cdd38fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Archsmall_Baked
+    second: {fileID: 2100000, guid: 82e6c692e2f0fc245a54b77e3636639e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BaseFloor_Baked
+    second: {fileID: 2100000, guid: 0ff359d23f3234b46ae89fd856c3bcf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eks
+    second: {fileID: 2100000, guid: 93399b92733e6af4cbb00892ae36138f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaaba2_Baked
+    second: {fileID: 2100000, guid: a88c2aa2c16e12b448794deeddbe43f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaaba3_Baked
+    second: {fileID: 2100000, guid: 25f478b4b87f59548989523a0a59d124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaaba_Baked
+    second: {fileID: 2100000, guid: 17aa8783fd443be42a6908969c09530e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kubah Kecil_Baked
+    second: {fileID: 2100000, guid: ef0b9ea35c059d447a8553353a0590d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8247deadebc51214e9b8a1a0767eff5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MedPillar.001_Baked
+    second: {fileID: 2100000, guid: aeae63237b8665e4880c0dc7409ffec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MedPillar_Baked
+    second: {fileID: 2100000, guid: 07d534ddfc784fa4095bcbae120a7459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Menara.002_Baked
+    second: {fileID: 2100000, guid: cab6b0734b638f644abc9bb2fd77fd0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar Tengah_Baked
+    second: {fileID: 2100000, guid: 5a09087b5e95fa242b756cd78bfa7298, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.001_Baked
+    second: {fileID: 2100000, guid: 9591a8383aa25554bb2faac74da12188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.002_Baked
+    second: {fileID: 2100000, guid: 63d493d0062944a44a5c957e08351472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.003_Baked
+    second: {fileID: 2100000, guid: b4f21ae148f455b4cb670a7b5028266c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.005_Baked
+    second: {fileID: 2100000, guid: 24c1b494a9a1f4b448e2625aad42b8e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.007_Baked
+    second: {fileID: 2100000, guid: 7bfe7217b8c2cad419495cce799b9afc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.008_Baked
+    second: {fileID: 2100000, guid: 03c232498d076594c9b715f31f00669e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plafon1_Baked
+    second: {fileID: 2100000, guid: 4fbc18cf8497eb04689f4855e94f8c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Planeornament1_Baked
+    second: {fileID: 2100000, guid: 654830cfd14c1c94e84877e410b6d6f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Planeornament2_Baked
+    second: {fileID: 2100000, guid: bd20535c28363c445b894847971228c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Small Pillar_Baked.001
+    second: {fileID: 2100000, guid: 3e9849961f0ee9b4ab29129a4f88b954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tangga_Baked
+    second: {fileID: 2100000, guid: 4d7df0464302de249b61ee40d3d9aee0, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ArchPillar_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 67c4f7781beb9f74192dcf7ec1ba0266, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Archsmall.001_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 3d22c82c7cd5d2844bced5fb04a7eacd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Archsmall.002_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 1036def9ef0af23488eb9393e5d3a4f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Archsmall_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: beef36af46e0c8b45aa9ecbdba5d6f6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BaseFloor_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 931cd4893e973614e957b7538efc21d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kaaba2_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 4b74de0530778d743af492786e3e3b7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kaaba3_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 71091a59414feaf46892c60b56e6a066, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kaaba_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 6e85a80eeb8a9c944b72ee1b3cd52f1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kubah Kecil_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: dbfec4e744dcc164f83a4bb59cd232f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MedPillar.001_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: e6076c224e3e6ae49828611ff935c7fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MedPillar_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: fb881b97daec6d84db1c55ade63a55be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Menara.002_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: def88a0950345eb4a81b4904a6fe8ea3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pillar Tengah_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: f6c529a585a6a31488844edcec97a003, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.001_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 2ae556fc74294ad49a5617cba216d69e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.002_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 4265a469803cc164692ba7e65f4fdcbe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.003_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: bc25b4a210e2d67469bce8bad5cb608b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.005_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 9011059f8523693499ba96f3d7471591, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.007_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 378cbacd31496c343b0b6f304500f30f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1.008_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 40cbc315dc952464a97ec0725cf7a5e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plafon1_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: cd04c653e43ee3941b5c364f1c28e22d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Planeornament1_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 501ddc4fc6944fa449b6afbbf15cbcc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Planeornament2_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: ac23277a40425a14688a890c1d400832, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Small Pillar_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 06f88df12cd53814299f3a22f279b179, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tangga_Bake1_PBR_Diffuse-min
+    second: {fileID: 2800000, guid: 08e5098c00deecf4e84f1c4fe2e65d25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plafon-min
+    second: {fileID: 2800000, guid: fc8862bd83750074da6133f26a2d6150, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -30,4 +30,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MeetingRoom.unity
     guid: 520ba024674d8fa4c9c4c8b55f8c21f3
+  - enabled: 1
+    path: Assets/Scenes/Kaaba.unity
+    guid: efd0b73e215a9d14ca6156febaeb1a14
   m_configObjects: {}
