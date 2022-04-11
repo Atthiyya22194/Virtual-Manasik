@@ -3,7 +3,27 @@ guid: 097428639f1549142b5b161e91e1889a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aer taman_Baked
+    second: {fileID: 2100000, guid: e5ed3e3eeee4ae340b1b1529e8780c6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taman 2.002_Baked.005
+    second: {fileID: 2100000, guid: f505c843e47db7d48ab86e3b3b426002, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aer taman_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 6581f73ba3c461a41a1b06aa75abe4ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Taman 2.002_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 62360a6ba3323a1498abf43791dd0426, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

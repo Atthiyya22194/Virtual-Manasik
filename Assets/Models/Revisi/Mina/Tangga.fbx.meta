@@ -3,7 +3,17 @@ guid: ca5ba899875d9644a8bbec8a2d779163
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tangga_Baked.001
+    second: {fileID: 2100000, guid: c72d68e417d48174b8c2e5c0b7177022, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tangga_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 432ea797f6f51444ca6f06887f3d3c34, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

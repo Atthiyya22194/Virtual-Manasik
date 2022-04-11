@@ -3,7 +3,57 @@ guid: 89ded8a69de5c3640afa61e3fcbce173
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rumput tengah_Baked
+    second: {fileID: 2100000, guid: 296fb1892bb65434dafa6a716889e097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok pinggir.001_Baked.004
+    second: {fileID: 2100000, guid: 0fcda3879f4c1754c82482b1335c2fbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok pinggir.002_Baked.004
+    second: {fileID: 2100000, guid: c927d3aabc4e3c042b20ac1dd9b76f2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_001.001_Baked
+    second: {fileID: 2100000, guid: 309bbe3c292d8c7409f48e3316ff2700, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: entrance_001_Baked
+    second: {fileID: 2100000, guid: 7b09836dc2a37ed4c9d2de1dfc9f9209, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rumput tengah_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: c832f558482a2544a87fbbd46c4799ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok pinggir.001_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: f59f8cfec3ae2064780550b8cb2b18e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok pinggir.002_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: af1d13ff3b51c6840965b9595f4a800b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: entrance_001.001_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 133b6ac80623c7947820125704e659f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: entrance_001_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 87e1b7891c1d26e409b527051dcf27ef, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

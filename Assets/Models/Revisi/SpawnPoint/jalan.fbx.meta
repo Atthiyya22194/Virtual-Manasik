@@ -3,7 +3,17 @@ guid: 3d26c10060fec3d43a26e7c85188c33b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tanah spawn_Baked.004
+    second: {fileID: 2100000, guid: e88af052ff79571488789b4d82b9d38d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tanah spawn_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 8100b4845daacb742a271ad232db2990, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,37 @@ guid: b350153196da30f498a6f33c453ad904
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aer_Baked
+    second: {fileID: 2100000, guid: ba2f0e02cedf50d489a257b29e7ac239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Taman samping gerbang_Baked.001
+    second: {fileID: 2100000, guid: 5b21488b9fc15cc49a1c15014f5b0dc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok Suci_Baked.005
+    second: {fileID: 2100000, guid: f767b7b4a0d4ac64dae59cbca0e91af2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aer_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 96e48f03118c56f42897af0526bb7779, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Taman samping gerbang_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: eecaaf70aaf17c8439d18a14d9e81351, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok Suci_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: ae918e200caf3394bb951766e61e93fc, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

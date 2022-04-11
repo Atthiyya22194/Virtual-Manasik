@@ -3,7 +3,17 @@ guid: f74a4905f45c44f4e982bf4c6b8d9875
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spawn.001_Baked.001
+    second: {fileID: 2100000, guid: 9b0a211e9546e7b4798d9ddb390952d1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: spawn.001_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: e77e90750c4dc7940a741d7fb33647cd, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

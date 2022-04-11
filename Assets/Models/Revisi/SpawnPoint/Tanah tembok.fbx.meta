@@ -3,7 +3,27 @@ guid: f4b9c017c11b4e84a8f4e09877d5aec3
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tanah spawn.003_Baked.004
+    second: {fileID: 2100000, guid: ea890e5dcf0d59c4d8d05f42c8afa0f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tembok spawn_Baked.004
+    second: {fileID: 2100000, guid: c4f9a0dab16e5434cb63788f3f4d76de, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tanah spawn.003_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 912ab7f4b565f914281bbc376d398cc9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tembok spawn_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 9f9863dccf6e7fc47b55022e2fa991fe, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: d5e8ae863e3d9894e9b3cc828bab74e5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle Kaca.001_Baked
+    second: {fileID: 2100000, guid: 5c0293089b1c7b3468a0f27e33202f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circle.042_Baked
+    second: {fileID: 2100000, guid: 0c4342be334572a4da67e1b6196e956b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Entrance_Baked
+    second: {fileID: 2100000, guid: e747fd8edb135fb4a91745577bb29357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kaca Puncak_Baked
+    second: {fileID: 2100000, guid: b63ff06d9608de24eaa96bc8c5859292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lorong.002_Baked
+    second: {fileID: 2100000, guid: 9ccf61979d9cc4e4ea360e36bc0356b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Baked
+    second: {fileID: 2100000, guid: b030c864460e4c94e8302cf341b208e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Baked.001
+    second: {fileID: 2100000, guid: 705271f0aec8eae4888e6951c41c3693, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Circle Kaca.001_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 2a45c525e8ec8f44295a1599c574f071, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Circle Kaca.001_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: 09b53cc48054f434aa76045784a4b5f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Circle Kaca.001_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: b7dee7676ee95b9408b07e21ee17803d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Circle.042_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 82f598e85e90ceb45b10740e49803189, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Circle.042_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: cba5adbd7f06fa0459e259781a447148, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Circle.042_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: 935f6d39dedb2554aab1eb4f1f437edd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Entrance_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: dfcd74a906386a249ace6e78b86e7da3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Entrance_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: c8707fcd187b758498bce2258809d979, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Entrance_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: e7ff5b6afeb760e47b89510b1b42414e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kaca Puncak_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: b8968d3f5fb889d4780b21e97aac7690, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kaca Puncak_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: e150387bccbd1a545b301c2e49e6ec20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kaca Puncak_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: 7dfc134fe9d66fe42b4cd82412ffc6c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lorong.002_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: aaf51b63483c7c14a85ba25642e305f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lorong.002_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: d82e5a086b924bc4a864349d16c33015, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lorong.002_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: 0703f53b5ffcb294598ca545d5b08a4e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 11d717ad8a8d3e4428d22f2c745b38d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: c8a9c3943ae56c24d8b15909f44b4f6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pilar_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: ed821e8d73df7aa489cd074285107f23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 7cc35d42d3a6a454db1574cabb910668, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Bake1_PBR_Emission
+    second: {fileID: 2800000, guid: 3ed09e403a8276d40b668c2b797b7fb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tembok_Bake1_PBR_Roughness
+    second: {fileID: 2800000, guid: f66ec77ed180a50489b50cd4347ae7fd, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

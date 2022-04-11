@@ -3,7 +3,17 @@ guid: c6a0582ebee771941b1229e10768d906
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Upper_Baked.001
+    second: {fileID: 2100000, guid: 2cd68051bf55d594ab45edc21b9c4abf, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Upper_Bake1_PBR_Diffuse
+    second: {fileID: 2800000, guid: 1a5be9b651b6f0846a180780ec84480c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
