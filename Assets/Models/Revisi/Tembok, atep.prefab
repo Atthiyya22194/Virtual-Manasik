@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8739865132717548434}
   - component: {fileID: 370645177818246212}
   - component: {fileID: 4771035407185595086}
-  - component: {fileID: 8081781044312253761}
   m_Layer: 0
   m_Name: Tembok_Baked
   m_TagString: Untagged
@@ -82,20 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8081781044312253761
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27809362511853915}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3949311805439535243, guid: 7adda76e234c304488b4e2a936d5bbb4, type: 3}
 --- !u!1 &171024942254139125
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ using Photon.Pun;
 public class TriggerArea : MonoBehaviour
 {
     public int id;
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))

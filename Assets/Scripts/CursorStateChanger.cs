@@ -9,24 +9,30 @@ public class CursorStateChanger : MonoBehaviour, IPointerDownHandler
 {
     GraphicRaycaster raycaster;
 
-    private void Start() {
+    private void Start()
+    {
         raycaster = GetComponent<GraphicRaycaster>();
     }
 
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
     }
 
-    public void OnPointerDown(PointerEventData eventData) {
+    public void OnPointerDown(PointerEventData eventData)
+    {
         List<RaycastResult> results = new List<RaycastResult>();
 
         raycaster.Raycast(eventData, results);
 
-        foreach (RaycastResult result in results) {
-            if (result.gameObject == gameObject) {
+        foreach (RaycastResult result in results)
+        {
+            if (result.gameObject == gameObject)
+            {
                 Cursor.visible = false;
                 Cursor.lockState = CursorLockMode.Locked;
             }
