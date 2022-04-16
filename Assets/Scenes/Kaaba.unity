@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6012274, g: 0.317636, b: 0.29078385, a: 1}
+  m_IndirectSpecularColor: {r: 0.32038474, g: 0.08234406, b: 0.06888825, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -645,9 +645,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 300465729}
     - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
+      propertyPath: bgActive
+      value: 
+      objectReference: {fileID: 1210946079}
+    - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
       propertyPath: chatInput
       value: 
       objectReference: {fileID: 1210946073}
+    - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
+      propertyPath: bgInactive
+      value: 
+      objectReference: {fileID: 1210946078}
     - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
       propertyPath: scrollArea
       value: 
@@ -1329,6 +1337,16 @@ MonoBehaviour:
 --- !u!224 &1210946077 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5605154110955235148, guid: 586c083276fd3b64d89c2ae98545d13c, type: 3}
+  m_PrefabInstance: {fileID: 1210946071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1210946078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1147943966, guid: 586c083276fd3b64d89c2ae98545d13c, type: 3}
+  m_PrefabInstance: {fileID: 1210946071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1210946079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2018614608, guid: 586c083276fd3b64d89c2ae98545d13c, type: 3}
   m_PrefabInstance: {fileID: 1210946071}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1219631323 stripped
