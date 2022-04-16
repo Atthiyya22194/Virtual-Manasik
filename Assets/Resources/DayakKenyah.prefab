@@ -1665,6 +1665,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  rmbDrag: 0
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
@@ -1684,6 +1685,8 @@ MonoBehaviour:
   SprintSpeed: 5.335
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
+  CameraMovementSensitivity: 0.5
+  UsingClickAndDrag: 1
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.5

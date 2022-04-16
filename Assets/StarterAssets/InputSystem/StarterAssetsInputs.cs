@@ -13,13 +13,15 @@ namespace StarterAssets
 		public bool jump;
 		public bool sprint;
 
+		public bool rmbDrag;
+
 		[Header("Movement Settings")]
 		public bool analogMovement;
 
 #if !UNITY_IOS || !UNITY_ANDROID
 		[Header("Mouse Cursor Settings")]
 		public bool cursorLocked = true;
-		public bool cursorInputForLook = true;
+		public bool cursorInputForLook = true;		
 #endif
 
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
@@ -45,6 +47,10 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnCameraDrag(InputValue val) {
+			DragInput(val.isPressed);
+        }
 #else
 	// old input sys if we do decide to have it (most likely wont)...
 #endif
@@ -70,8 +76,12 @@ namespace StarterAssets
 			sprint = newSprintState;
 		}
 
-#if !UNITY_IOS || !UNITY_ANDROID
+		public void DragInput(bool newDragState) {
+			rmbDrag = newDragState;
+        }
 
+#if !UNITY_IOS || !UNITY_ANDROID
+/*
 		private void OnApplicationFocus(bool hasFocus)
 		{
 			SetCursorState(cursorLocked);
@@ -80,7 +90,7 @@ namespace StarterAssets
 		private void SetCursorState(bool newState)
 		{
 			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
-		}
+		}*/
 
 #endif
 
