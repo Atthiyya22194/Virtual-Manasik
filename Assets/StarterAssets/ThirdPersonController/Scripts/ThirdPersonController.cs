@@ -24,7 +24,11 @@ namespace StarterAssets
 		[Range(0.0f, 0.3f)]
 		public float RotationSmoothTime = 0.12f;
 		[Tooltip("Acceleration and deceleration")]
-		public float SpeedChangeRate = 10.0f;		
+		public float SpeedChangeRate = 10.0f;
+
+		[Header("Player Camera")]
+		[Range(0.01f, 1f)]
+		public float CameraMovementSensitivity = .5f;		
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
@@ -163,20 +167,22 @@ namespace StarterAssets
 		}
 
 		private void CameraRotation()
-		{
-			// if there is an input and camera position is not fixed
-			if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition)
-			{
-				_cinemachineTargetYaw += _input.look.x * Time.deltaTime;
-				_cinemachineTargetPitch += _input.look.y * Time.deltaTime;
-			}
+		{	
+				// if there is an input and camera position is not fixed
+				if (_input.look.sqrMagnitude >= _threshold && !LockCameraPosition) {
+					
+					if (_input.rmbDrag) {
+						_cinemachineTargetYaw += _input.look.x * CameraMovementSensitivity * Time.deltaTime;
+						_cinemachineTargetPitch += _input.look.y * CameraMovementSensitivity * Time.deltaTime;
+					}
+				}
 
-			// clamp our rotations so our values are limited 360 degrees
-			_cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);
-			_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
+				// clamp our rotations so our values are limited 360 degrees
+				_cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);
+				_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
 
-			// Cinemachine will follow this target
-			CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride, _cinemachineTargetYaw, 0.0f);
+				// Cinemachine will follow this target
+				CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride, _cinemachineTargetYaw, 0.0f);
 		}
 
 		private void Move()
