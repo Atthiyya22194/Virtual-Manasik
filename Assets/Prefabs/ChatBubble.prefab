@@ -144,8 +144,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Player
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
-  m_sharedMaterial: {fileID: -6518339686938333247, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b96bc558d43931441af0cf0a80c37545, type: 2}
+  m_sharedMaterial: {fileID: -8156816698848437934, guid: b96bc558d43931441af0cf0a80c37545, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -278,8 +278,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pada suatu hari, hiduplah seekor beruang bernama Beru.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
-  m_sharedMaterial: {fileID: -6518339686938333247, guid: f861146a784dd6e4e940b1f1617b0884, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3bdde6a266de4db4a8ed22bc91045675, type: 2}
+  m_sharedMaterial: {fileID: -6824764985768945093, guid: 3bdde6a266de4db4a8ed22bc91045675, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
