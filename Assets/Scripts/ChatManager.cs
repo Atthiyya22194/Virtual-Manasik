@@ -29,8 +29,14 @@ public class ChatManager : MonoBehaviour
     public Sprite onSelectInputSprite;
     public Sprite onDeselectInputSprite;
 
+    [Header("Background")]
+    public GameObject bgActive;
+    public GameObject bgInactive;
+
     void Start() {
         photonView = GetComponent<PhotonView>();
+        bgActive.SetActive(false);
+        bgInactive.SetActive(true);
     }
 
     void Update() {
@@ -115,11 +121,15 @@ public class ChatManager : MonoBehaviour
         inputFieldImage.sprite = onSelectInputSprite;
         scrollArea.anchoredPosition = new Vector3(0f, 182.458f, 0f);
         scrollArea.sizeDelta = new Vector2(389.23f, 558.445f);
+        bgActive.SetActive(true);
+        bgInactive.SetActive(false);
     }
 
     public void OnDeselect_DefaultSprite() {
         inputFieldImage.sprite = onDeselectInputSprite;
         scrollArea.anchoredPosition = new Vector3(0f, 13.796f, 0f);
         scrollArea.sizeDelta = new Vector2(389.23f, 221.12f);
+        bgActive.SetActive(false);
+        bgInactive.SetActive(true);
     }
 }

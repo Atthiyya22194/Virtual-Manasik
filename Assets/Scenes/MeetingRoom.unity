@@ -867,6 +867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Taman
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 097428639f1549142b5b161e91e1889a, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 097428639f1549142b5b161e91e1889a, type: 3}
 --- !u!4 &213520675 stripped
@@ -4045,9 +4049,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 300465729}
     - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
+      propertyPath: bgActive
+      value: 
+      objectReference: {fileID: 2018614608}
+    - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
       propertyPath: chatInput
       value: 
       objectReference: {fileID: 1210946073}
+    - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
+      propertyPath: bgInactive
+      value: 
+      objectReference: {fileID: 1210946078}
     - target: {fileID: 616111193636990736, guid: 1bbc9e1491df75a46891bf654bee3beb, type: 3}
       propertyPath: scrollArea
       value: 
@@ -4894,6 +4906,11 @@ MonoBehaviour:
 --- !u!224 &1210946077 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5605154110955235148, guid: 586c083276fd3b64d89c2ae98545d13c, type: 3}
+  m_PrefabInstance: {fileID: 1210946071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1210946078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1147943966, guid: 586c083276fd3b64d89c2ae98545d13c, type: 3}
   m_PrefabInstance: {fileID: 1210946071}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1219631323 stripped
@@ -5994,6 +6011,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7657055183482454774, guid: 3bee7938f6e036440821a61d7af37224, type: 3}
+--- !u!1 &2018614608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2018614608, guid: 586c083276fd3b64d89c2ae98545d13c, type: 3}
+  m_PrefabInstance: {fileID: 1210946071}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2028731543
 PrefabInstance:
   m_ObjectHideFlags: 0
