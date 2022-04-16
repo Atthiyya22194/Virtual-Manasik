@@ -1427,145 +1427,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: '
-
-    Transform ''mixamorig:LeftToeBase'' has been deleted
-
-    Transform
-    ''mixamorig:LeftFoot'' has been deleted
-
-    Transform ''mixamorig:LeftLeg''
-    has been deleted
-
-    Transform ''mixamorig:LeftUpLeg'' has been deleted
-
-    Transform
-    ''mixamorig:RightToeBase'' has been deleted
-
-    Transform ''mixamorig:RightFoot''
-    has been deleted
-
-    Transform ''mixamorig:RightLeg'' has been deleted
-
-    Transform
-    ''mixamorig:RightUpLeg'' has been deleted
-
-    Transform ''mixamorig:LeftHandIndex3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandIndex2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandIndex1'' has been deleted
-
-    Transform ''mixamorig:LeftHandMiddle3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandMiddle2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandMiddle1'' has been deleted
-
-    Transform ''mixamorig:LeftHandPinky3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandPinky2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandPinky1'' has been deleted
-
-    Transform ''mixamorig:LeftHandRing3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandRing2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandRing1'' has been deleted
-
-    Transform ''mixamorig:LeftHandThumb3''
-    has been deleted
-
-    Transform ''mixamorig:LeftHandThumb2'' has been deleted
-
-    Transform
-    ''mixamorig:LeftHandThumb1'' has been deleted
-
-    Transform ''mixamorig:LeftHand''
-    has been deleted
-
-    Transform ''mixamorig:LeftForeArm'' has been deleted
-
-    Transform
-    ''mixamorig:LeftArm'' has been deleted
-
-    Transform ''mixamorig:LeftShoulder''
-    has been deleted
-
-    Transform ''mixamorig:Head'' has been deleted
-
-    Transform
-    ''mixamorig:Neck'' has been deleted
-
-    Transform ''mixamorig:RightHandIndex3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandIndex2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandIndex1'' has been deleted
-
-    Transform ''mixamorig:RightHandMiddle3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandMiddle2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandMiddle1'' has been deleted
-
-    Transform ''mixamorig:RightHandPinky3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandPinky2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandPinky1'' has been deleted
-
-    Transform ''mixamorig:RightHandRing3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandRing2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandRing1'' has been deleted
-
-    Transform ''mixamorig:RightHandThumb3''
-    has been deleted
-
-    Transform ''mixamorig:RightHandThumb2'' has been deleted
-
-    Transform
-    ''mixamorig:RightHandThumb1'' has been deleted
-
-    Transform ''mixamorig:RightHand''
-    has been deleted
-
-    Transform ''mixamorig:RightForeArm'' has been deleted
-
-    Transform
-    ''mixamorig:RightArm'' has been deleted
-
-    Transform ''mixamorig:RightShoulder''
-    has been deleted
-
-    Transform ''mixamorig:Spine2'' has been deleted
-
-    Transform
-    ''mixamorig:Spine1'' has been deleted
-
-    Transform ''mixamorig:Spine'' has
-    been deleted
-
-    Transform ''mixamorig:Hips'' has been deleted'
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1641,7 +1503,6 @@ MonoBehaviour:
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
   CameraMovementSensitivity: 0.5
-  UsingClickAndDrag: 1
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.5
@@ -2630,7 +2491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_RootOrder
@@ -2638,7 +2499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.20000005
+      value: -0.025044754
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2646,7 +2507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: 0.0011372566
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2678,11 +2539,76 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
+--- !u!1 &8944336655477173951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
+  m_PrefabInstance: {fileID: 80586149}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8944336655477173946 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
   m_PrefabInstance: {fileID: 80586149}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7713529246321943050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8944336655477173951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 8944336655477173946}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &1738582098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2704,7 +2630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.20000005
+      value: -0.025044754
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2712,7 +2638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: 0.0011372566
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalRotation.w
